@@ -62,7 +62,7 @@ function wrapText(ctx, text) {
     var lineHeight = 25;
     var words = text.split('');
     var line = '';
-    ctx.font = "14px 'Monotype Corsiva'";
+    ctx.font = "14px 'sans-serif'";
     ctx.fillStyle = '#000';
     for (var n = 0; n < words.length; n++) {
         var testLine = line + words[n] + ' ';
