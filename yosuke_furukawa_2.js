@@ -26,7 +26,7 @@ function roundRect(ctx, x, y, w, h, r) {
 
 var offset = {
     x: 300,
-    y: 40
+    y: 50
 };
 var fukidashi_size = {
     width: 260,
@@ -97,7 +97,7 @@ function draw(ctx, size, text) {
         ctx.drawImage(yousuke_furukawaImage, 0, 150, 720, 450);
         var fukidash = {
             x: 300,
-            y: 0
+            y: 20
         };
         ctx.drawImage(fukidashiImage, fukidash.x, fukidash.y, fukidashi_size.width, fukidashi_size.height);
         wrapText(ctx, text);
